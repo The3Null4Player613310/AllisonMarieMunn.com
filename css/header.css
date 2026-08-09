@@ -18,12 +18,15 @@
 
 #header-left-logo {
     display: block;
+    text-align: center;
 }
 
 #header-left-moto {
     display: block;
+    text-align: center;
 }
 
 #header-right {
     display: inline-block;
+    float: right;
 }
