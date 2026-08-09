@@ -27,6 +27,11 @@
 }
 
 #header-right {
-    display: inline-block;
+    display: block;
     float: right;
+}
+
+#header-right-menu {
+    display: block;
+    text-align: center;
 }
