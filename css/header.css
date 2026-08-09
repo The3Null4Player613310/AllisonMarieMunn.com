@@ -1,0 +1,29 @@
+/*
+################################################################
+# ALLISON MARIE MUNN: header.css                             #
+# COPYRIGHT © ALLISON MARIE MUNN                              #
+# LICENSE: GPLV2 ONLY                                        #
+# FULL COPYRIGHT NOTICE IS IN README                           #
+# AUTHOR: ALLISON MARIE MUNN                                 #
+################################################################
+*/
+
+#header {
+    display: block;
+}
+
+#header-left {
+    display: inline-block;
+}
+
+#header-left-logo {
+    display: block;
+}
+
+#header-left-moto {
+    display: block;
+}
+
+#header-right {
+    display: inline-block;
+}
