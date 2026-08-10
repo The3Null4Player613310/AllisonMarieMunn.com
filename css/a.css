@@ -10,20 +10,20 @@
 
 a {
     background-color: #FFE4C4;
-    color: #DAA520;
+    color: #000000;
 }
 
 a:hover{
     background-color: #FEE3C3;
-    color: #DAA520;
+    color: #000000;
 }
 
 a:active{
     background-color: #DDC2A2;
-    color: #DAA520;
+    color: #000000;
 }
 
 a:visited{
     background-color: #FFE4C4;
-    color: #DAA520;
+    color: #000000;
 }
