@@ -1,0 +1,29 @@
+/*
+################################################################
+# ALLISON MARIE MUNN: a.css                             #
+# COPYRIGHT © ALLISON MARIE MUNN                              #
+# LICENSE: GPLV2 ONLY                                        #
+# FULL COPYRIGHT NOTICE IS IN README                           #
+# AUTHOR: ALLISON MARIE MUNN                                 #
+################################################################
+*/
+
+a {
+    background-color: #FFE4C4;
+    color: #DAA520;
+}
+
+a:hover{
+    background-color: #FEE3C3;
+    color: #DAA520;
+}
+
+a:active{
+    background-color: #DDC2A2;
+    color: #DAA520;
+}
+
+a:visited{
+    background-color: #FFE4C4;
+    color: #DAA520;
+}
