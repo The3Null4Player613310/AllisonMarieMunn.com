@@ -10,7 +10,8 @@
 
 .form {
   padding: 16px;
-  background-color: tan;
-  color: #000000;
+  color: black;
+  background-color: grey;
+  fontsize: 8pt;
   border-radius: 24px;
 }
