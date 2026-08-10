@@ -13,7 +13,6 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: red;
 }
 
 #footer-center {
@@ -21,7 +20,6 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    background-color: green;
 }
 
 #footer-center-copyright {
@@ -29,5 +27,4 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: blue;
 }
