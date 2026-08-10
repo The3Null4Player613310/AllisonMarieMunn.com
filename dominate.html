@@ -21,101 +21,114 @@
     <link rel="stylesheet" href="css/footer.css">
   </head>
   <body>
-    <div class="header">
-      <div class="header-logo">
-        <b><img align="center" src="img/amm.png" alt="ALLISON MARIE MUNN" class="header-logo-image"></b>
+    <div>
+      <div id="header">
+        <div id="header-left">
+          <div id="header-left-logo">
+            ALLISON MARIE MUNN
+            <!--<b><img align="center" src="img/amm.png" alt="ALLISON MARIE MUNN" class="header-left-logo-image"></b>-->
+          </div>
+          <div id="header-left-moto">
+            SERVICE IN SUBMISSION
+          </div>
+        </div>
+        <div id="header-right">
+          <div id="header-right-menu">
+            MENU
+          </div>
+        </div>
       </div>
-    </div>
-    <div id="content">
-    <noscript>
-      <h1 align="center"><b>PLEASE ENABLE JAVASCRIPT</b></h1>
-    </noscript>
-    <form method="post" id="form" hidden="true">
-      <table align="center" class="form">
-	      <thead>
-	        <th colspan="3"><h2 align="center">APPLY FOR SCENE.</h2></th>
-	      </thead>
-	      <tbody>
-          <tr>
-            <td><label for="first_name">FIRST NAME: </label></td>
-            <td><input type="text" id="first_name" name="FNAME" tabindex="0" autofocus="true" required="true" placeholder=" John " value=""></td>
-          </tr>
-          <tr>
-            <td><label for="middle_name">MIDDLE NAME: </label></td>
-            <td><input type="text" id="middle_name" name="MNAME" tabindex="0" autofocus="true" required="true" placeholder="" value=""></td>
-          </tr>
-          <tr>
-            <td><label for="last_name">LAST NAME: </label></td>
-            <td><input type="text" id="last_name" name="LNAME" tabindex="0" required="true" placeholder=" Doe " value=""></td>
-          </tr>
-          <tr>
-            <td><label for="phone">PHONE: </label></td>
-            <td><input type="tel" id="phone" name="PHONE" tabindex="0" required="true" minlength="10" maxlength="15" placeholder=" +1 (902) 555-0101 " value=""></td>
-          </tr>
-          <tr>
-            <td><label for="email">EMAIL: </label></td>
-            <td><input type="email" id="email" name="EMAIL" tabindex="0" required="true" placeholder=" sade@example.com " value=""></td>
-          </tr>
-          <tr>
-            <td><label for="emergency_contact_first_name">EMERGENCY CONTACT FIRST NAME: </label></td>
-            <td><input type="text" id="emergency_contact_first_name" name="ECFNAME" tabindex="0" autofocus="true" required="true" placeholder=" John " value=""></td>
-          </tr>
-          <tr>
-            <td><label for="emergency_contact_middle_name">EMERGENCY CONTACT MIDDLE NAME: </label></td>
-            <td><input type="text" id="emergency_contact_middle_name" name="ECMNAME" tabindex="0" autofocus="true" required="true" placeholder="" value=""></td>
-          </tr>
-          <tr>
-            <td><label for="emergency_contact_last_name">EMERGENCY CONTACT LAST NAME: </label></td>
-            <td><input type="text" id="emergency_contact_last_name" name="ECLNAME" tabindex="0" required="true" placeholder=" Doe " value=""></td>
-          </tr>
-          <tr>
-            <td><label for="emergency_contact_phone">EMERGENCY CONTACT PHONE: </label></td>
-            <td><input type="tel" id="emergency_contact_phone" name="PHONE" tabindex="0" required="true" minlength="10" maxlength="15" placeholder=" +1 (902) 555-0101 " value=""></td>
-          </tr>
-          <tr>
-            <td><label for="emergency_contact_email">EMERGENCY CONTACT EMAIL: </label></td>
-            <td><input type="email" id="emergency_contact_email" name="EMAIL" tabindex="0" required="true" placeholder=" ophelia@example.com " value=""></td>
-          </tr>
-          <tr>
-            <td><label for="dom_name">DOM TITLE: </label></td>
-            <td><input type="text" id="dom_name" name="DNAME" tabindex="0" required=true placeholder=" MASTER " value=""></td>
-	        </tr>
-          <tr>
-            <td><label for="sub_name">SUB TITLE: </label></td>
-            <td><input type="text" id="sub_name" name="SNAME" tabindex="0" required=true placeholder=" A " value=""></td>
-	        </tr>
-          <tr>
-            <td><label for="scene_length">SCENE LENGTH: $</label></td>
-            <td><input type="number" id="scene_length" name="HOURS" tabindex="0" required="true" placeholder="24" min="1" step="1" value="0"></td>
-	        </tr>
-          <tr>
-            <td><label for="scene_date">SCENE DATE: $</label></td>
-            <td><input type="number" id="scene_date" name="DATE" tabindex="0" required="true" placeholder="24" min="1" step="1" value="0"></td>
-	        </tr>
-          <tr>
-            <td><label for="first_name">WITNESS: </label></td>
-            <td><input type="text" id="first_name" name="WNAME" tabindex="0" autofocus="true" required="true" placeholder=" SATAN " value=""></td>
-          </tr>
-          <tr>
-            <td colspan="3">
-              <hr>
-            </td>
-          </tr>
-	        <tr>
-           <td colspan="2"><a href="index.html" tabindex="-1"><input type="button" tabindex="0" value="Cancel"></a></td>
-           <td><input type="submit" tabindex="0" value="Apply"></td>
-	        </tr>
-        </tbody>
-      </table>
-      <input type="hidden" id="suuid" name="SUUID" value="0">
-      <input type="hidden" id="etime" name="ETIME" value="0">   
-    </form>
-    <script src="js/form.js"></script>
-    </div>
-    <div class="footer">
-      <span>&copy; 2024</span>
-      &nbsp;&nbsp;
-      <a href="privacy.html">Privacy</a>
+      <div id="content">
+        <noscript>
+          <h1 align="center"><b>PLEASE ENABLE JAVASCRIPT</b></h1>
+        </noscript>
+        <form method="post" id="form" hidden="true">
+          <table align="center" class="form">
+	          <thead>
+	            <th colspan="3"><h2 align="center">APPLY FOR SCENE.</h2></th>
+	          </thead>
+	          <tbody>
+              <tr>
+                <td><label for="first_name">FIRST NAME: </label></td>
+                <td><input type="text" id="first_name" name="FNAME" tabindex="0" autofocus="true" required="true" placeholder=" John " value=""></td>
+               </tr>
+               <tr>
+                 <td><label for="middle_name">MIDDLE NAME: </label></td>
+                 <td><input type="text" id="middle_name" name="MNAME" tabindex="0" autofocus="true" required="true" placeholder="" value=""></td>
+               </tr>
+               <tr>
+                 <td><label for="last_name">LAST NAME: </label></td>
+                 <td><input type="text" id="last_name" name="LNAME" tabindex="0" required="true" placeholder=" Doe " value=""></td>
+               </tr>
+               <tr>
+                 <td><label for="phone">PHONE: </label></td>
+                 <td><input type="tel" id="phone" name="PHONE" tabindex="0" required="true" minlength="10" maxlength="15" placeholder=" +1 (902) 555-0101 " value=""></td>
+               </tr>
+               <tr>
+                 <td><label for="email">EMAIL: </label></td>
+                 <td><input type="email" id="email" name="EMAIL" tabindex="0" required="true" placeholder=" sade@example.com " value=""></td>
+               </tr>
+               <tr>
+                 <td><label for="emergency_contact_first_name">EMERGENCY CONTACT FIRST NAME: </label></td>
+                 <td><input type="text" id="emergency_contact_first_name" name="ECFNAME" tabindex="0" autofocus="true" required="true" placeholder=" John " value=""></td>
+               </tr>
+               <tr>
+                 <td><label for="emergency_contact_middle_name">EMERGENCY CONTACT MIDDLE NAME: </label></td>
+                 <td><input type="text" id="emergency_contact_middle_name" name="ECMNAME" tabindex="0" autofocus="true" required="true" placeholder="" value=""></td>
+               </tr>
+               <tr>
+                 <td><label for="emergency_contact_last_name">EMERGENCY CONTACT LAST NAME: </label></td>
+                 <td><input type="text" id="emergency_contact_last_name" name="ECLNAME" tabindex="0" required="true" placeholder=" Doe " value=""></td>
+               </tr>
+               <tr>
+                 <td><label for="emergency_contact_phone">EMERGENCY CONTACT PHONE: </label></td>
+                <td><input type="tel" id="emergency_contact_phone" name="PHONE" tabindex="0" required="true" minlength="10" maxlength="15" placeholder=" +1 (902) 555-0101 " value=""></td>
+               </tr>
+               <tr>
+                 <td><label for="emergency_contact_email">EMERGENCY CONTACT EMAIL: </label></td>
+                 <td><input type="email" id="emergency_contact_email" name="EMAIL" tabindex="0" required="true" placeholder=" ophelia@example.com " value=""></td>
+               </tr>
+               <tr>
+                 <td><label for="dom_name">DOM TITLE: </label></td>
+                 <td><input type="text" id="dom_name" name="DNAME" tabindex="0" required=true placeholder=" MASTER " value=""></td>
+	             </tr>
+               <tr>
+                 <td><label for="sub_name">SUB TITLE: </label></td>
+                 <td><input type="text" id="sub_name" name="SNAME" tabindex="0" required=true placeholder=" A " value=""></td>
+	             </tr>
+               <tr>
+                 <td><label for="scene_length">SCENE LENGTH: $</label></td>
+                 <td><input type="number" id="scene_length" name="HOURS" tabindex="0" required="true" placeholder="24" min="1" step="1" value="0"></td>
+	             </tr>
+               <tr>
+                 <td><label for="scene_date">SCENE DATE: $</label></td>
+                 <td><input type="number" id="scene_date" name="DATE" tabindex="0" required="true" placeholder="24" min="1" step="1" value="0"></td>
+	             </tr>
+               <tr>
+                 <td><label for="first_name">WITNESS: </label></td>
+                 <td><input type="text" id="first_name" name="WNAME" tabindex="0" autofocus="true" required="true" placeholder=" SATAN " value=""></td>
+               </tr>
+               <tr>
+                 <td colspan="3">
+                   <hr>
+                 </td>
+               </tr>
+	             <tr>
+                 <td colspan="2"><a href="index.html" tabindex="-1"><input type="button" tabindex="0" value="Cancel"></a></td>
+                 <td><input type="submit" tabindex="0" value="Apply"></td>
+	             </tr>
+             </tbody>
+           </table>
+           <input type="hidden" id="suuid" name="SUUID" value="0">
+           <input type="hidden" id="etime" name="ETIME" value="0">   
+         </form>
+         <script src="js/form.js"></script>
+       </div>
+       <div class="footer">
+         <span>&copy; 2024</span>
+         &nbsp;&nbsp;
+         <a href="privacy.html">Privacy</a>
+       </div>
     </div>
   </body>
 </html>
