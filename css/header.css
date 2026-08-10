@@ -19,17 +19,20 @@
 }
 
 #header-left-logo {
-    display: block;
-    text-align: center;
-    color: #000000;
-    background-color: #FFE4C4;
+  border-radius: 24px;
+  color: #000000;
+  background-color: #FFE4C4;
+  overflow: hidden;
 }
 
-#header-left-moto {
+#header-left-logo-name {
     display: block;
     text-align: center;
-    color: #000000;
-    background-color: #FFE4C4;
+}
+
+#header-left-logo-moto {
+    display: block;
+    text-align: center;
 }
 
 #header-right {
