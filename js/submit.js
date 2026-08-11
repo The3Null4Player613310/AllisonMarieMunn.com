@@ -54,6 +54,8 @@ agreement="Activity%20Waiver%20%26%20Release%0ATHIS%20ACTIVITY%20WAIVER%20%26%20
   var d = t[1];
   var y = t[2];
 
+  document.location.href="sms:" + PHONE + "/?subject=" + msgSubject + "&body=" + msgBody;
+/*
   if(data["METHOD"] === "PHONE")
   {
     document.location.href="sms:" + PHONE + "/?subject=" + msgSubject + "&body=" + msgBody;
@@ -62,6 +64,7 @@ agreement="Activity%20Waiver%20%26%20Release%0ATHIS%20ACTIVITY%20WAIVER%20%26%20
   {
     document.location.href="mailto:" + EMAIL + "/?subject=" + msgSubject + "&body=" + msgBody;
   }
+*/
 /*
 
     function s()
