@@ -45,7 +45,7 @@ function submit()
   }
 
   var FULL_NAME = data["FNAME"] + " " + data["MNAME"] + " " + data["LNAME"];
-  var ADDRESS = data["SNAME"] + ", " + data["CNAME"] + ", " + data["PNAME"] + ", " + data["PCODE"];
+  var ADDRESS = data["RNAME"] + ", " + data["CNAME"] + ", " + data["PNAME"] + ", " + data["PCODE"];
 
   var EMERGENCY_CONTACT_FULL_NAME = data["EFNAME"];
   var EMERGENCY_CONTACT_PHONE_NUMBER = data["EPHONE"];
