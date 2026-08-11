@@ -50,6 +50,8 @@ function submit()
   var EMERGENCY_CONTACT_FULL_NAME = data["EFNAME"];
   var EMERGENCY_CONTACT_PHONE_NUMBER = data["EPHONE"];
 
+  var WITNESS_NAME_ONE = data["WNAME"];
+  
   var date = data["DATE"];
   var t = date.split("-");
   var MONTH = MONTHS[t[0]];
