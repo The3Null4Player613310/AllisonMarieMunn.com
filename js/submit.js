@@ -59,4 +59,3 @@ agreement="Activity%20Waiver%20%26%20Release%0ATHIS%20ACTIVITY%20WAIVER%20%26%20
 }
 
 init();
-submit();
