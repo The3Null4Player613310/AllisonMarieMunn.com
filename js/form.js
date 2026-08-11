@@ -37,6 +37,10 @@ function submit(event)
   document.cookie = "LNAME='"+data["LNAME"]+"'; path=/; max-age=8; samesite=strict";
   document.cookie = "PHONE='"+data["PHONE"]+"'; path=/; max-age=8; samesite=strict";
   document.cookie = "EMAIL='"+data["EMAIL"]+"'; path=/; max-age=8; samesite=strict";
+  document.cookie = "SNAME='"+data["SNAME"]+"'; path=/; max-age=8; samesite=strict";
+  document.cookie = "CNAME='"+data["CNAME"]+"'; path=/; max-age=8; samesite=strict";
+  document.cookie = "PNAME='"+data["PNAME"]+"'; path=/; max-age=8; samesite=strict";
+  document.cookie = "PCODE='"+data["PCODE"]+"'; path=/; max-age=8; samesite=strict";
   document.cookie = "EFNAME='"+data["EFNAME"]+"'; path=/; max-age=8; samesite=strict";
   document.cookie = "EPHONE='"+data["EPHONE"]+"'; path=/; max-age=8; samesite=strict";
   document.cookie = "EEMAIL='"+data["EEMAIL"]+"'; path=/; max-age=8; samesite=strict";
