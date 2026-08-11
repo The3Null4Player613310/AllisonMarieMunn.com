@@ -48,7 +48,7 @@ agreement="Activity%20Waiver%20%26%20Release%0ATHIS%20ACTIVITY%20WAIVER%20%26%20
   var msgSubject = "hi";
   var msgBody = "Hail%20Satan";
   
-  var date = data[DATE];
+  var date = data["DATE"];
   var t = date.split("-");
   var m = t[0];
   var d = t[1];
