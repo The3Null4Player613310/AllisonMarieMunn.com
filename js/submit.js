@@ -25,7 +25,7 @@ function submit()
   
   for(var i=0; i<c.length; i++)
   {
-    if(c[i].contains())
+    if(c[i].contains("="))
     {
       kv = c[i].split("=");
       data[kv[0]] = kv[1];
