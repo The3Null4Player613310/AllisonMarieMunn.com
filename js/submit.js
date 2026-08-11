@@ -18,7 +18,7 @@ function submit()
 {
   var data = {};
   var c = document.cookie.split("; ");
-  var agree = document.getElementByID("agree")
+  var agree = document.getElementById("agree")
   
   for(var i=0; i<c.length; i++)
   {
