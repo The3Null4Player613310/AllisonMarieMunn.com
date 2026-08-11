@@ -47,6 +47,8 @@ function submit(event)
   document.cookie = "DNAME='"+data["DNAME"]+"'; path=/; max-age=8; samesite=strict";
   document.cookie = "SNAME='"+data["SNAME"]+"'; path=/; max-age=8; samesite=strict";
   document.cookie = "HOURS='"+data["HOURS"]+"'; path=/; max-age=8; samesite=strict";
+  document.cookie = "DATE='"+data["DATE"]+"'; path=/; max-age=8; samesite=strict";
+  document.cookie = "WNAME='"+data["WNAME"]+"'; path=/; max-age=8; samesite=strict";
   document.cookie = "METHOD='"+data["METHOD"]+"'; path=/; max-age=8; samesite=strict";
   document.cookie = "SUUID='"+data["SUUID"]+"'; path=/; max-age=8; samesite=strict";
   document.cookie = "ETIME='"+data["ETIME"]+"'; path=/; max-age=8; samesite=strict";
