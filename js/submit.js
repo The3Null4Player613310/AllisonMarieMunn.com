@@ -18,6 +18,7 @@ function submit()
 {
   var data = {};
   var c = document.cookie.split("; ");
+  var agree = document.getElementByID("agree")
   
   for(var i=0; i<c.length; i++)
   {
@@ -42,7 +43,8 @@ agreement=Activity%20Waiver%20%26%20Release%0ATHIS%20ACTIVITY%20WAIVER%20%26%20R
   
 
   
-  window.href.location="sms:" + PHONE + "/?subject=AGREEMENT&body=HAIL%20SATAN!"
+  agree.href="sms:" + PHONE + "/?subject=AGREEMENT&body=HAIL%20SATAN!"
+  
 /*
   $.ajax({
     type: "POST",
