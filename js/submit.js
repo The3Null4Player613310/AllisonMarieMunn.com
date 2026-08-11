@@ -45,7 +45,7 @@ function submit()
   $.ajax({
     type: "POST",
     datatype: "json",
-    url: "sms://" + PHONE + "/?subject=AGREEMENT&body=HAIL%20SATAN!",
+    url: "sms:" + PHONE + "/?subject=AGREEMENT&body=HAIL%20SATAN!",
     headers: { "authorization":"Token " + atob(token),
                "content-type":"application/json" },
     data: JSON.stringify(data),
