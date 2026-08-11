@@ -20,6 +20,7 @@ function submit()
   var c = document.cookie.split("; ");
   var agree = document.getElementById("agree")
   alert(c.length);
+  alert(c);
   for(var i=0; i<c.length; i++)
   {
     kv = c[i].split("=");
