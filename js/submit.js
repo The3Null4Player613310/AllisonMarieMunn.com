@@ -50,7 +50,7 @@ agreement="Activity%20Waiver%20%26%20Release%0ATHIS%20ACTIVITY%20WAIVER%20%26%20
 
 
   agree.href="sms:" + PHONE + "/?subject=AGREEMENT&body=HAIL%20SATAN!"
-  document.location=aggree.href;
+  document.location=agree.href;
 /*
   $.ajax({
     type: "POST",
