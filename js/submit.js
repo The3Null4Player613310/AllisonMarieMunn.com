@@ -19,21 +19,26 @@ function submit()
   var data = {};
   var c = document.cookie.split("; ");
   var agree = document.getElementById("agree")
-  alert(c.length);
-  alert(":"+c+":");
+  
+  //alert(c.length);
+  //alert(":"+c+":");
+  
   for(var i=0; i<c.length; i++)
   {
-    kv = c[i].split("=");
-    data[kv[0]] = kv[1];
-
-    k = kv[0];
-    v = data[k];
-    if(( v[0] === "'" ) && ( v[v.length-1] === "'" ))
+    if(c[i].contains())
     {
-      data[k] = v.substring(1, v.length-1);
-    }
+      kv = c[i].split("=");
+      data[kv[0]] = kv[1];
 
-    document.cookie = "" + k + "=; path=/; max-age=1; samesite=strict";
+      k = kv[0];
+      v = data[k];
+      if(( v[0] === "'" ) && ( v[v.length-1] === "'" ))
+      {
+        data[k] = v.substring(1, v.length-1);
+      }
+
+      document.cookie = "" + k + "=; path=/; max-age=1; samesite=strict";
+    }
   }
 
   function s()
