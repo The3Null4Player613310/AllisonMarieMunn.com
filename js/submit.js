@@ -61,9 +61,9 @@ function submit()
   if(date) {
     var t = date.split("-");
     alert(':'+t[0]+':');
-    MONTH = MONTHS[t[0]];
-    DAY = t[1];
-    YEAR = t[2];
+    MONTH = MONTHS[t[1]];
+    DAY = t[2];
+    YEAR = t[0];
   }
 
   
