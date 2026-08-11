@@ -8,6 +8,7 @@
 ################################################################
 */
 
+WITNESS_NAME_TWO="";
 PHONE="+1 (782) 377-6340";
 EMAIL="ALLISONMARIEMUNN@HOTMAIL.COM";
 MONTHS=["NA","JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
