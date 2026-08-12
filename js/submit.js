@@ -78,6 +78,7 @@ function submit()
     var t = date.split("-");
     DAY = t[2];
     MONTH = MONTHS[t[1]];
+    MONTH = t[1]
     YEAR = t[0];
   }
 
