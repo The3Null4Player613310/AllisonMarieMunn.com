@@ -54,7 +54,7 @@ function submit()
         data[k] = v.substring(1, v.length-1);
       }
 
-      document.cookie = "" + k + "=; path=/; max-age=1; samesite=strict";
+      //document.cookie = "" + k + "=; path=/; max-age=1; samesite=strict";
     }
   }
 
