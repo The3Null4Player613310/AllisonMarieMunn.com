@@ -39,6 +39,6 @@ function navDrawerClose()
 
 function drawer()
 {
-  $("#header-menu").click(navDrawerOpen); // change to nav-drawer-button
+  $("#header-right-menu").click(navDrawerOpen); // change to nav-drawer-button
   $("#nav-drawer-shim").click(navDrawerClose);
 }
