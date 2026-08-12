@@ -1,0 +1,68 @@
+/*
+################################################################
+# ALLISON MARIE MUNN: form.html                             #
+# COPYRIGHT © ALLISON MARIE MUNN                              #
+# LICENSE: GPLV2 ONLY                                        #
+# FULL COPYRIGHT NOTICE IS IN README                           #
+# AUTHOR: ALLISON MARIE MUNN                                 #
+################################################################
+*/
+
+#nav-drawer {
+  position: fixed;
+  z-index: 100000000 !important;
+  top: 0px;
+  bottom: 0px;
+  width: 300px;
+  overflow: hidden;
+  color: #000000;
+  background-color: #F3F3F3;
+}
+
+.nav-drawer-close {
+  left: -332px;
+  width: 0px;
+  padding: 0px;
+}
+
+.nav-drawer-open {
+  left: 0px;
+}
+
+#nav-drawer-header {
+  width: parent;
+  height: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #000000;
+}
+
+#nav-drawer-list {
+  width: calc(100% - 32px);
+  height: calc(100% - 32px - 50px - 24px);
+  padding: 16px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#nav-drawer-list::-webkit-scrollbar {
+  display: none;
+}
+
+#nav-drawer-shim {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #000000;
+  opacity: 0.32;
+}
+
+.nav-drawer-shim-close {
+  width: 0px;
+}
+
+.nav-drawer-shim-open {
+  width: 100%;
+}
