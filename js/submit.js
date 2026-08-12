@@ -11,19 +11,19 @@
 WITNESS_NAME_TWO="";
 PHONE="+1 (782) 377-6340";
 EMAIL="ALLISONMARIEMUNN@HOTMAIL.COM";
-MONTHS[0] = "NA";
-MONTHS[1] = "JAN";
-MONTHS[2] = "FEB";
-MONTHS[3] = "MAR";
-MONTHS[4] = "APR";
-MONTHS[5] = "MAY";
-MONTHS[6] = "JUN";
-MONTHS[7] = "JUL";
-MONTHS[8] = "AUG";
-MONTHS[9] = "SEP";
-MONTHS[10] = "OCT";
-MONTHS[11] = "NOV";
-MONTHS[12] = "DEC";
+MONTHS["0] = "NA";
+MONTHS["1] = "JAN";
+MONTHS["2] = "FEB";
+MONTHS["3] = "MAR";
+MONTHS["4] = "APR";
+MONTHS["5"] = "MAY";
+MONTHS["6"] = "JUN";
+MONTHS["7"] = "JUL";
+MONTHS["8"] = "AUG";
+MONTHS["9"] = "SEP";
+MONTHS["10"] = "OCT";
+MONTHS["11"] = "NOV";
+MONTHS["12"] = "DEC";
 
 function init()
 {
@@ -72,7 +72,6 @@ function submit()
   
   if(date) {
     var t = date.split("-");
-    alert(':'+t[1]+':');
     DAY = t[2];
     MONTH = MONTHS[t[1]];
     YEAR = t[0];
