@@ -46,16 +46,16 @@ function submit()
   }
 
   var MONTHS={};
-  MONTHS["0"] = "NA";
-  MONTHS["1"] = "JAN";
-  MONTHS["2"] = "FEB";
-  MONTHS["3"] = "MAR";
-  MONTHS["4"] = "APR";
-  MONTHS["5"] = "MAY";
-  MONTHS["6"] = "JUN";
-  MONTHS["7"] = "JUL";
-  MONTHS["8"] = "AUG";
-  MONTHS["9"] = "SEP";
+  MONTHS["00"] = "NA";
+  MONTHS["01"] = "JAN";
+  MONTHS["02"] = "FEB";
+  MONTHS["03"] = "MAR";
+  MONTHS["04"] = "APR";
+  MONTHS["05"] = "MAY";
+  MONTHS["06"] = "JUN";
+  MONTHS["07"] = "JUL";
+  MONTHS["08"] = "AUG";
+  MONTHS["09"] = "SEP";
   MONTHS["10"] = "OCT";
   MONTHS["11"] = "NOV";
   MONTHS["12"] = "DEC";
@@ -78,7 +78,7 @@ function submit()
     var t = date.split("-");
     DAY = t[2];
     MONTH = MONTHS[t[1]];
-    MONTH = t[1]
+    //MONTH = t[1]
     YEAR = t[0];
   }
 
