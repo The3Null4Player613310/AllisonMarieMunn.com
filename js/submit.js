@@ -73,7 +73,7 @@ function submit()
   
   var WITNESS_NAME_ONE = data["WNAME"];
   
-  var date = data["DATE"];
+  var date = data["SDATE"];
 
   var MONTH="NA";
   var DAY="NA";
@@ -98,23 +98,22 @@ function submit()
   var msgBody = greeting;
   msgBody += "%0A%0A%0A%0A";
   msgBody += agreement;
-  
-  
 
-  document.location.href="sms:" + PHONE + "/?subject=" + msgSubject + "&body=" + msgBody;
-/*
-  if(data["METHOD"] === "PHONE")
+  //document.location.href="sms:" + PHONE + "/?subject=" + msgSubject + "&body=" + msgBody;
+  if(data["CTYPE"] === "PHONE")
   {
     document.location.href="sms:" + PHONE + "/?subject=" + msgSubject + "&body=" + msgBody;
   }
-  else if(data["METHOD"] === "EMAIL")
+  else if(data["CTYPE"] === "EMAIL")
   {
     document.location.href="mailto:" + EMAIL + "/?subject=" + msgSubject + "&body=" + msgBody;
   }
-*/
-/*
+  else
+  {
+    alert("ERR");
+  }
 
-    function s()
+  function s()
   {
   };
   
