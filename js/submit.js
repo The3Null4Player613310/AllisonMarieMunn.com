@@ -106,7 +106,7 @@ function submit()
   }
   else if(data["CTYPE"] === "EMAIL")
   {
-    document.location.href="mailto:" + EMAIL + "/?subject=" + msgSubject + "&body=" + msgBody;
+    document.location.href="mailto:" + EMAIL + "?subject=" + msgSubject + "&body=" + msgBody;
   }
   else
   {
