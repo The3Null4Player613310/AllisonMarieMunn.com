@@ -163,11 +163,11 @@
                 </tr>
                <tr>
                  <td><label for="method_phone">PHONE: </label></td>
-                 <td><input type="radio" id="method_phone" name="METHOD" tabindex="0" autofocus="true" required="true" value="PHONE"></td>
+                 <td><input type="radio" id="method_phone" name="METHOD" tabindex="0" autofocus="true" required="true" value="PHONE" onClick="setCType("PHONE")"></td>
                </tr>
                <tr>
                  <td><label for="method_email">EMAIL: </label></td>
-                 <td><input type="radio" id="method_email" name="METHOD" tabindex="0" autofocus="true" required="true" value="EMAIL"></td>
+                 <td><input type="radio" id="method_email" name="METHOD" tabindex="0" autofocus="true" required="true" value="EMAIL" onClick="setCType("EMAIL")"></td>
                </tr>
                <tr>
                  <td colspan="3">
@@ -180,6 +180,7 @@
 	             </tr>
              </tbody>
            </table>
+		   <input type="hidden" id="ctype" name="CTYPE" value="0">
            <input type="hidden" id="suuid" name="SUUID" value="0">
            <input type="hidden" id="etime" name="ETIME" value="0">   
          </form>
