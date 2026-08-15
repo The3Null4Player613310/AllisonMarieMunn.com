@@ -16,6 +16,14 @@ function unhide()
   form.removeAttribute("hidden");
 }
 
+function setCType(contactTypeIn)
+{
+  var contactType="" + contactTypeIn;
+  
+  var i_ctype = document.getElementById("ctype");
+
+  i_ctype.value = contactType;
+}
 
 function submit(event)
 {
@@ -62,9 +70,9 @@ function init()
   
   form.addEventListener("submit", submit)
   
+  
   var i_suuid = document.getElementById("suuid");
   var i_etime = document.getElementById("etime");
-
   var epoch = new Date().getTime();
   var rando = Math.ceil(Math.random() * MAX_VAL);
 
