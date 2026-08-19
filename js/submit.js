@@ -102,7 +102,7 @@ function submit()
   //document.location.href="sms:" + PHONE + "/?subject=" + msgSubject + "&body=" + msgBody;
   if(data["CTYPE"] === "PHONE")
   {
-    document.location.href="sms:" + PHONE + "/?subject=" + msgSubject + "&body=" + msgBody;
+    document.location.href="sms:" + PHONE + "?subject=" + msgSubject + "&body=" + msgBody;
   }
   else if(data["CTYPE"] === "EMAIL")
   {
